@@ -14,6 +14,10 @@
 		33468E962C7D77A80032B709 /* SwiftSecureDataEncryptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33468E952C7D77A80032B709 /* SwiftSecureDataEncryptionTests.swift */; };
 		33468EA02C7D77A80032B709 /* SwiftSecureDataEncryptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33468E9F2C7D77A80032B709 /* SwiftSecureDataEncryptionUITests.swift */; };
 		33468EA22C7D77A80032B709 /* SwiftSecureDataEncryptionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33468EA12C7D77A80032B709 /* SwiftSecureDataEncryptionUITestsLaunchTests.swift */; };
+		33468EB12C7D946C0032B709 /* AES256Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33468EB02C7D946C0032B709 /* AES256Encryption.swift */; };
+		33468EB32C7D94730032B709 /* EncryptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33468EB22C7D94730032B709 /* EncryptionService.swift */; };
+		33468EB52C7D947A0032B709 /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33468EB42C7D947A0032B709 /* KeyManager.swift */; };
+		33468EB72C7D94810032B709 /* KeyRotationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33468EB62C7D94810032B709 /* KeyRotationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		33468E9B2C7D77A80032B709 /* SwiftSecureDataEncryptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSecureDataEncryptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33468E9F2C7D77A80032B709 /* SwiftSecureDataEncryptionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSecureDataEncryptionUITests.swift; sourceTree = "<group>"; };
 		33468EA12C7D77A80032B709 /* SwiftSecureDataEncryptionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSecureDataEncryptionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33468EB02C7D946C0032B709 /* AES256Encryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES256Encryption.swift; sourceTree = "<group>"; };
+		33468EB22C7D94730032B709 /* EncryptionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptionService.swift; sourceTree = "<group>"; };
+		33468EB42C7D947A0032B709 /* KeyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyManager.swift; sourceTree = "<group>"; };
+		33468EB62C7D94810032B709 /* KeyRotationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyRotationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,10 @@
 		33468E832C7D77A50032B709 /* SwiftSecureDataEncryption */ = {
 			isa = PBXGroup;
 			children = (
+				33468EB62C7D94810032B709 /* KeyRotationManager.swift */,
+				33468EB42C7D947A0032B709 /* KeyManager.swift */,
+				33468EB22C7D94730032B709 /* EncryptionService.swift */,
+				33468EB02C7D946C0032B709 /* AES256Encryption.swift */,
 				33468E842C7D77A50032B709 /* SwiftSecureDataEncryptionApp.swift */,
 				33468E862C7D77A50032B709 /* ContentView.swift */,
 				33468E882C7D77A70032B709 /* Assets.xcassets */,
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				33468E872C7D77A50032B709 /* ContentView.swift in Sources */,
+				33468EB52C7D947A0032B709 /* KeyManager.swift in Sources */,
 				33468E852C7D77A50032B709 /* SwiftSecureDataEncryptionApp.swift in Sources */,
+				33468EB72C7D94810032B709 /* KeyRotationManager.swift in Sources */,
+				33468EB32C7D94730032B709 /* EncryptionService.swift in Sources */,
+				33468EB12C7D946C0032B709 /* AES256Encryption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
