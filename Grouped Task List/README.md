@@ -13,5 +13,5 @@ This is a SwiftUI-based iOS application for managing tasks, where tasks are orga
 
 ## Screenshots
 
-![](https://github.com/ArunaUd92/.png)
+![](https://github.com/ArunaUd92/code-examples/blob/develop/Grouped%20Task%20List/Screenshot%E2%80%AF_01.png)
 
