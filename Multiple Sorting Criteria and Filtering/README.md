@@ -14,5 +14,5 @@ This is a SwiftUI-based iOS application that allows users to manage a list of ta
 
 ## Screenshots
 
-![](https://github.com/ArunaUd92/code-examples/blob/develop/)
+![](https://github.com/ArunaUd92/code-examples/blob/develop/Multiple%20Sorting%20Criteria%20and%20Filtering/Screenshot_01.png)
 
