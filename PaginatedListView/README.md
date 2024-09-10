@@ -11,4 +11,4 @@ This SwiftUI-based iOS application demonstrates how to load and display a large 
 
 ## Screenshots
 
-
+![](https://github.com/ArunaUd92/code-examples/blob/main/PaginatedListView/Screenshot_01.png)
