@@ -42,4 +42,5 @@ Example API Response:
 ```
 ## Screenshots
 
+![](https://github.com/ArunaUd92/code-examples/blob/develop/Search%20Bar%20to%20Filter%20a%20List/Screenshot_01.png)
 
